@@ -1,0 +1,55 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Electronics"
+    },
+    {
+      "id": "8361",
+      "name": "aeouaoeua"
+    },
+    {
+      "id": "79b2",
+      "name": "e",
+      "categoryId": "e"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Laptop",
+      "categoryId": 1
+    },
+    {
+      "id": "f47c",
+      "name": "aoe",
+      "price": "aoe",
+      "category": "aoeao"
+    },
+    {
+      "id": "5cf5",
+      "name": "a",
+      "price": "a",
+      "category": "a"
+    },
+    {
+      "id": "62d3",
+      "name": "aa",
+      "price": "aa",
+      "category": "aa"
+    },
+    {
+      "id": "9035",
+      "name": "aeoeuaoeuaaoeuaoea",
+      "price": "aoeuaaoeuaoeuaoeu",
+      "category": "aoeuaoeauaoeauaoeae"
+    }
+  ],
+  "employers": [
+    {
+      "id": "1",
+      "name": "Okan",
+      "position": "Developer"
+    }
+  ]
+}
