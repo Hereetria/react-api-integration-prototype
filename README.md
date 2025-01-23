@@ -1,50 +1,21 @@
-# React + TypeScript + Vite
+# React_Api_Test_Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project allows the user to interact with an API and perform basic operations.
 
-Currently, two official plugins are available:
+## Installation
+Clone the project and make sure you have `json-server` installed. Additionally, ensure that React and TypeScript are properly set up.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Users can perform basic CRUD operations via the API (GET, GET_BY_ID, CREATE, UPDATE, DELETE).
+- A custom hook named `useEntityApi` has been defined to manage API requests from a single central location.
+- Error and loading states are managed using `useState`, providing feedback to the user.
 
-## Expanding the ESLint configuration
+## Technologies Used
+- React
+- TypeScript
+- React Hooks (`useEffect`, `customHook`)
+- Json-server
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Contributions to Me
+This project helped me learn how to manage API requests from a single point in a React project. It also improved my understanding of managing loading and error states with `useState`.
