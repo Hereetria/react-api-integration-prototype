@@ -1,21 +1,28 @@
-# React_Api_Test_Project
+# ⚛️ React API Integration Prototype — CRUD via Custom Hook • (Archived)
 
-## Description
-This project allows the user to interact with an API and perform basic operations.
+<br>
 
-## Installation
-Clone the project and make sure you have `json-server` installed. Additionally, ensure that React and TypeScript are properly set up.
+## 📌 Project Overview
 
-## Features
-- Users can perform basic CRUD operations via the API (GET, GET_BY_ID, CREATE, UPDATE, DELETE).
-- A custom hook named `useEntityApi` has been defined to manage API requests from a single central location.
-- Error and loading states are managed using `useState`, providing feedback to the user.
+This project demonstrates how to **integrate a REST API into a React + TypeScript** application and manage requests through a **centralized custom hook**.  
+It focuses on **basic CRUD operations**, loading and error handling, and organizing API logic in a clean and reusable way.  
+> 📦 **Archived** — This project is no longer being updated. It’s kept as part of my **learning history** and also serves as a **reference/template** for future projects I may revisit.
 
-## Technologies Used
-- React
-- TypeScript
-- React Hooks (`useEffect`, `customHook`)
-- Json-server
+<br>
 
-## Contributions to Me
-This project helped me learn how to manage API requests from a single point in a React project. It also improved my understanding of managing loading and error states with `useState`.
+## 🧰 Tech Stack
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Badge" height="32" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge" height="32" />
+  <img src="https://img.shields.io/badge/Json%20Server-000000?style=for-the-badge&logo=json&logoColor=white" alt="Json Server Badge" height="32" />
+</p>
+
+<br>
+
+## 📜 License
+This project is licensed under the [MIT License](./LICENSE).
+
+---
+
+© 2025 Yusuf Okan Sirkeci — [Hereetria](https://github.com/Hereetria)
