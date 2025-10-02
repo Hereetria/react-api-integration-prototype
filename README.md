@@ -6,7 +6,7 @@
 
 This project demonstrates how to **integrate a REST API into a React + TypeScript** application and manage requests through a **centralized custom hook**.  
 It focuses on **basic CRUD operations**, loading and error handling, and organizing API logic in a clean and reusable way.  
-> 📦 **Archived** — This project is no longer being updated. It’s kept as part of my **learning history** and also serves as a **reference/template** for future projects I may revisit.
+> 📦 **Archived** — This project is no longer being updated. It’s kept as part of my learning history and serves as a technical reference for future projects.
 
 <br>
 
